@@ -21,7 +21,7 @@ private:
         target.header.stamp = this->get_clock()->now();
         target.header.frame_id = "map";
 
-        target.coordinate_frame = 3; // üç mav_frame_global int'in 3ü
+        target.coordinate_frame = 3; 
 
         target.type_mask = mavros_msgs::msg::PositionTarget::IGNORE_PX |
                            mavros_msgs::msg::PositionTarget::IGNORE_PY |
